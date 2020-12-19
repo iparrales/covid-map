@@ -7,23 +7,18 @@ import { useSiteMetadata } from 'hooks';
 import Container from 'components/Container';
 
 const Header = () => {
-  const { companyName, companyUrl } = useSiteMetadata();
-
   return (
     <header>
       <Container type="content">
         <p>
-          <Link to="/">{ companyName }</Link>
+          <Link to="/">World Map</Link>
         </p>
         <ul>
           <li>
-            <Link to="/about/">About</Link>
+            <Link to="/about/">Zoom to US Map</Link>
           </li>
           <li>
-            <a href={companyUrl}>
-              <span className="visually-hidden">Github</span>
-              <FaGithub />
-            </a>
+            <Link to="/about2">Switch to Chart Data</Link>
           </li>
         </ul>
       </Container>

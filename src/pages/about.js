@@ -1,35 +1,38 @@
 import React from 'react';
+import ReactDOM from "react-dom";
+import "react-simple-maps";
 import { Helmet } from 'react-helmet';
+
+
+import "../assets/stylesheets/pages/USAmap.css"
+import MapChart from "../components/USAmap.js"
+
 
 import { useSiteMetadata } from 'hooks';
 
 import Layout from 'components/Layout';
 import Container from 'components/Container';
+import Header from 'components/Header';
+
 
 const SecondPage = () => {
   const { companyName, companyUrl, authorName, authorUrl, siteDescription } = useSiteMetadata();
 
   return (
-    <Layout pageName="about">
-      <Helmet>
-        <title>About</title>
-      </Helmet>
-      <Container type="content">
-        <h1>About</h1>
+    <>
+    <Header />
+      <MapChart />
+      {/* <body>
+          <iframe src="https://public.domo.com/cards/axpDJ" width="100%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+          <iframe src="https://public.domo.com/cards/dyqEV" width="100%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+          <iframe src="https://public.domo.com/cards/azrGr" width="100%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
 
-        <h2>{ companyName }</h2>
-        <p>{ siteDescription }</p>
-        <p>
-          <a href={companyUrl}>View on Github</a>
-        </p>
-
-        <h2>Created By</h2>
-        <p>
-          <a href={authorUrl}>{ authorName }</a>
-        </p>
-      </Container>
-    </Layout>
+      </body> */}
+    </>
   );
 };
+
+const rootElement = document.getElementById("root")
+//ReactDOM.render(<SecondPage />, rootElement)
 
 export default SecondPage;
