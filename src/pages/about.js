@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from 'components/Header';
+
 import * as am4core from "@amcharts/amcharts4/core";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 import * as am4maps from "@amcharts/amcharts4/maps";
@@ -314,7 +316,14 @@ class App extends React.Component {
     }
 
     render() {
-      return (<div id = "chartdiv" style = {{width: "100%", height: "90vh"}}></div>);
+      return (
+        <>
+          <Header />
+          <h1 class='Title'>United States Heat Map of Covid-19 Data</h1>
+
+          <div id = "chartdiv" style = {{width: "100%", height: "90vh"}}></div>
+        </>
+      );
     }
   }
 
