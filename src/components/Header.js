@@ -18,6 +18,9 @@ const Header = () => {
             <Link to="/about/">Zoom to US Map</Link>
           </li>
           <li>
+            <Link to="/about3/">US Charts</Link>
+          </li>
+          <li>
             <Link to="/about2">Switch to Chart Data</Link>
           </li>
         </ul>
