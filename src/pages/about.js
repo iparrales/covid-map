@@ -4,11 +4,14 @@ import * as am4charts from "@amcharts/amcharts4/charts";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 import * as am4maps from "@amcharts/amcharts4/maps";
 import am4geodata_usaLow from "@amcharts/amcharts4-geodata/usaLow";
+import {fetchMapData} from '../api';
 import axios from 'axios'
 
 am4core.useTheme(am4themes_animated);
 
 var stateData;
+
+var stateData2 = fetchMapData();
 
 axios.get('https://disease.sh/v3/covid-19/states')
   .then(function (response) {

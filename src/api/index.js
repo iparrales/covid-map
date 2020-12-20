@@ -88,3 +88,13 @@ export const fetchDailyData2 = async () => {
     }
 
   };
+
+  export const fetchMapData = async () => {
+      try {
+        const { data: {state, cases, deaths, recovered, population, updated}} = await axios.get(url3);
+
+        return {state, cases, deaths, recovered, population, updated} 
+      } catch (error) {
+        
+      }
+  }
