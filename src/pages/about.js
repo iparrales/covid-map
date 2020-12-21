@@ -321,7 +321,7 @@ class App extends React.Component {
           <Header />
           <h1 class='Title'>United States Heat Map of Covid-19 Data</h1>
 
-          <div id = "chartdiv" style = {{width: "100%", height: "90vh"}}></div>
+          <div id = "chartdiv" style = {{width: "100%", height: "80vh"}}></div>
         </>
       );
     }
