@@ -39,6 +39,10 @@ cd covid-map
 gatsby develop
 ```
 
+## Data Sources
+https://corona.lmao.ninja/
+https://covid19.mathdro.id/api
+
 
 ## Contributors (This was the basis of our world map) From there we worked on the rest so we would like to thank the following people. 
 
