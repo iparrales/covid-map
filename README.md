@@ -1,4 +1,4 @@
-#  Covid-19 Tracker Site 
+#  Covid-19 Tracker Site (Main Code of the project is found inside the src folder) 
 
 
 ##  What Was Included/Used in the Making of this Site
