@@ -3,6 +3,8 @@
 ![US Map](https://github.com/iparrales/covid-map/raw/master/US_Map.png)
 ![Covid Graphs](https://github.com/iparrales/covid-map/raw/master/Covid_Graphs.png)
 
+## Video Presentation [Here](https://www.youtube.com/watch?v=Ex-R0EW_ILI)
+
 
 ##  What Was Included/Used in the Making of this Site
 * Yarn
