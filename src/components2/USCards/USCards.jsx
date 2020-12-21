@@ -19,7 +19,7 @@ const USCards = ({data: {cases, deaths, recovered, population, updated}}) => {
                         <CountUp  start={0} end={cases} duration={2.5} separator=","  />
                     </Typography>
                     <Typography color="textSecondary">{new Date(updated).toDateString()}</Typography>
-                    <Typography variant="body2">Number of active cases</Typography>
+                    <Typography variant="body2">Number of active cases of Covid-19</Typography>
                 </CardContent>
             </Grid>
             <Grid item component={Card} className={cx(styles.card, styles.recovered)}>
@@ -29,7 +29,7 @@ const USCards = ({data: {cases, deaths, recovered, population, updated}}) => {
                         <CountUp  start={0} end={recovered} duration={2.5} separator=","  />
                     </Typography>
                     <Typography color="textSecondary">{new Date(updated).toDateString()}</Typography>
-                    <Typography variant="body2">Number of recoveries</Typography>
+                    <Typography variant="body2">Number of recovered from Covid-19</Typography>
                 </CardContent>
             </Grid>
             <Grid item component={Card} className={cx(styles.card, styles.deaths)}>
@@ -39,7 +39,7 @@ const USCards = ({data: {cases, deaths, recovered, population, updated}}) => {
                         <CountUp  start={0} end={deaths} duration={2.5} separator=","  />
                     </Typography>
                     <Typography color="textSecondary">{new Date(updated).toDateString()}</Typography>
-                    <Typography variant="body2">Number of deaths</Typography>
+                    <Typography variant="body2">Number of deaths from Covid-19</Typography>
                 </CardContent>
             </Grid>
             <Grid item component={Card} className={cx(styles.card, styles.population)}>
@@ -49,7 +49,7 @@ const USCards = ({data: {cases, deaths, recovered, population, updated}}) => {
                         <CountUp  start={0} end={[population]} duration={2.5} separator=","  />
                     </Typography>
                     <Typography color="textSecondary">{new Date(updated).toDateString()}</Typography>
-                    <Typography variant="body2">Population of the US</Typography>
+                    <Typography variant="body2">Population</Typography>
                 </CardContent>
             </Grid>
         </Grid>
