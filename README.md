@@ -32,7 +32,10 @@
 * @amcharts/amcharts4-geodata
 
 ### Then cd into covid-map and then run gatsby-develop in terminal. Site should load on local-host 8000
-
+```
+cd covid-map
+gatsby develop
+```
 
 
 ### Quick Start
