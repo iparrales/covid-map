@@ -1,4 +1,7 @@
 #  Covid-19 Tracker Site (Main Code of the project is found inside the src folder) 
+![World Map](https://github.com/iparrales/covid-map/raw/master/World_map.png)
+![US Map](https://github.com/iparrales/covid-map/raw/master/US_Map.png)
+![Covid Graphs](https://github.com/iparrales/covid-map/raw/master/Covid_Graphs.png)
 
 
 ##  What Was Included/Used in the Making of this Site
@@ -21,7 +24,6 @@
 
 ### First Clone the Repo. Open repo and install the following with either yarn or npm 
 * Gatsby CLI
-* Yarn
 * Axios
 * react-chartjs-2
 * react-countup
@@ -37,12 +39,6 @@ cd covid-map
 gatsby develop
 ```
 
-
-### Quick Start
-Run the following in your favorite terminal:
-```
-gatsby new my-map-app https://github.com/colbyfayock/gatsby-starter-leaflet
-```
 
 ## Contributors (This was the basis of our world map) From there we worked on the rest so we would like to thank the following people. 
 
