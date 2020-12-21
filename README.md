@@ -1,4 +1,5 @@
 #  Covid-19 Tracker Site (Main Code of the project is found inside the src folder) 
+By Ivan Parrales and Kyle Slater
 ![World Map](https://github.com/iparrales/covid-map/raw/master/World_map.png)
 ![US Map](https://github.com/iparrales/covid-map/raw/master/US_Map.png)
 ![Covid Graphs](https://github.com/iparrales/covid-map/raw/master/Covid_Graphs.png)
