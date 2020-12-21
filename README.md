@@ -1,20 +1,39 @@
 #  Covid-19 Tracker Site 
 
 
-##  What Was Included in the Making of this Site
-* [Yarn](https://yarnpkg.com/en/)
-* [Gatsby](https://www.gatsbyjs.org/)
-* [Sass](https://sass-lang.com)
-* [React Helmet](https://github.com/nfl/react-helmet)
-* [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
+##  What Was Included/Used in the Making of this Site
+* Yarn
+* Gatsby
+* Sass
+* React Helmet
+* Resolve Src
 * Leaflet
 * React Leaflet
+* Material-ui
+* am4core
+* axios
 
-## 🚀 Getting Started
 
-### Requirements
-* [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli)
-* [Yarn](https://yarnpkg.com/en/)
+
+
+
+##  Getting Started
+
+### First Clone the Repo. Open repo and install the following with either yarn or npm 
+* Gatsby CLI
+* Yarn
+* Axios
+* react-chartjs-2
+* react-countup
+* classnames
+* charts.js
+* @amcharts
+* amcharts4  
+* @amcharts/amcharts4-geodata
+
+### Then cd into covid-map and then run gatsby-develop in terminal. Site should load on local-host 8000
+
+
 
 ### Quick Start
 Run the following in your favorite terminal:
