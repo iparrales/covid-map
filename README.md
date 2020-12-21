@@ -1,14 +1,14 @@
 #  Covid-19 Tracker Site 
 
 
-## 🧰 What This Includes
+##  What Was Included in the Making of this Site
 * [Yarn](https://yarnpkg.com/en/)
 * [Gatsby](https://www.gatsbyjs.org/)
 * [Sass](https://sass-lang.com)
 * [React Helmet](https://github.com/nfl/react-helmet)
 * [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
-* [Leaflet](https://leafletjs.com/)
-* [React Leaflet](https://react-leaflet.js.org)
+* Leaflet
+* React Leaflet
 
 ## 🚀 Getting Started
 
